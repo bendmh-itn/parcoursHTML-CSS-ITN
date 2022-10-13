@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: lavender;
+}
+
+h1 {
+    color: blue;
+    text-decoration: underline;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#parcoursWeb {
+    display: none;
+}
+
+.UAASelected {
+    color: red;
+    font-size: 1.5em;
+}

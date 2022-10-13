@@ -65,30 +65,6 @@ ul li a {
     font-size: larger;
 }
 
-.flex {
-    display: flex;
-}
-
-.space-around {
-    justify-content: space-around;
-}
-
-.space-evenly {
-    justify-content: space-evenly;
-}
-
-.space-between {
-    justify-content: space-between;
-}
-
-.align-item-center {
-    align-items: center;
-}
-
-.wrap {
-    flex-wrap: wrap;
-}
-
 footer {
     background-color: blue;
     margin: 0;
