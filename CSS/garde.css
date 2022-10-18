@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    background-color: lavender;
+    margin: 0;
+}
+
+h1 {
+    color: #1123ED;
+    text-decoration: underline;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu {
+    padding: 15px;
+    margin: 0;
+}
+
+.menu li {
+    color: #292E6E;
+    padding: 20px;
+}
+
+.menu li:hover {
+    cursor: pointer;
+    background-color: #1123ED;
+    color: #CCD0FF;
+    border-radius: 50%;
+}
+
+a {
+    color: #292E6E;
+    text-decoration: none;
+}
+
+.UAASelected {
+    color: red;
+}
+
+img {
+    width: 100px;
+}
+
+header {
+    background-color: #CCD0FF;
+
+}
+
+
+
+
+
+/* Ce sont les média query */
+
+@media only screen and (max-width: 600px) {
+    .menu li {
+        padding: 0;
+    }
+  }

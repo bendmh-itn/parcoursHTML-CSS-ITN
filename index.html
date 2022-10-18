@@ -1,98 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITN - CSS</title>
+    <link rel="stylesheet" href="CSS/flex.css">
+    <link rel="stylesheet" href="CSS/garde.css">
     <link rel="stylesheet" href="CSS/index.css">
-    <title>Parcours HTML - CSS ITN</title>
+    <script type="text/javascript" src="JS/garde.js"></script>
 </head>
+
 <body>
     <header>
-        <ul class="flex space-evenly">
-            <li><a href="index.html">3ème</a></li>
-            <li><a href="annee4.html">4ème</a></li>
+        <h1 class="noneMobile">Bienvenue au cours d'informatique à l'ITN</h1>
+        <ul class="menu flex space-evenly">
+            <li onclick="addClass('web')">Web</li>
+            <li onclick="addClass('programmation')"><span>Progra</span><span class="noneMobile">mmation</span></li>
+            <li onclick="addClass('projet')">Projet</li>
+            <li onclick="addClass('hardware')">Hardware</li>
+            <li onclick="addClass('autre')">Autres</li>
         </ul>
     </header>
+
     <main>
-        <h1>Voici le parcours pour la partie web</h1>
-        <div>
-            <p class="justify">
-                Chaque partie du cours permet 
-                l'apprentissage de différents points. 
-                Évidemment le cours s'est construit au fur et à mesure et donc 
-                évolue au fur et à mesure des étapes. Des retours en arrière et
-                changemement sont possibles.
-            </p>
-        </div>
-        <div>
-            <h2>Voici les principales étapes en 3ème</h2>
-            <ol type="A" class="listeTypeAlphabet">
-                <li>Étape 1
-                    <p>Compétences : </p>
-                    <ol class="listeTypeDecimal">
-                        <li>Utilisation de visual studio code</li>
-                            <ul class="listeCompetences">
-                                <li>Raccourcis ! pour construire la structure de base</li>
-                                <li>Les balises se ferment automatiquement</li>
-                                <li>Indentation facile</li>
-                                <li>Raccourcis rechercher/rechercher partout/Modifier</li>
-                                <li>Utilisation de live Server</li>
-                            </ul>
-                        <li>Découverte des balises (Doctype, html, head, title, body)</li>
-                        <li>Division en header, main et footer</li>
-                        <li>Ajout des titres avec les niveaux</li>
-                        <li>Mettre des commentaires en HTML</li>
-                        <li>Ajout de paragraphes pour construire la page</li>
-                        <li>Ajout de div pour structurer son code (système de boite)</li>
-                        <li>Point important : utilisation de la console pour visualiser son code (flèche)</li>
-                        <li><a href="3etape1/index.html" target="_blank">Résultat</a></li>
-                    </ol>
-                </li>
-                <li>Étape 2
-                    <p>Compétences : </p>
-                    <ol class="listeTypeDecimal">
-                        <li>Ajout d’une deuxième page et modification de l’URL</li>
-                        <li>Création d’une liste non ordonnée pour passer d’une page à l’autre</li>
-                        <li>Ajout des pages profil et voir le bien</li>
-                        <li>Création d’une liste numérotée pour les données de profil</li>
-                        <li>Création de bouton avec un lien cacher derrière</li>
-                        <li><a href="3etape2/index.html" target="_blank">Résultat</a></li>
-                    </ol>
-                </li>
-                <li>Étape 3
-                    <p>Compétences : </p>
-                    <ol class="listeTypeDecimal">
-                        <li>Ajout d’images src + alt (lien relatif et absolu)</li>
-                        <li>Ajout d’éléments dans la page voir le bien (table, vidéo, map)</li>
-                        <li>Utiliser l’option mail</li>
-                        <li>Ajout d’un lien externe (target ou non)</li>
-                        <li><a href="3etape3/index.html" target="_blank">Résultat</a></li>
-                    </ol>
-                </li>
-                <li>Étape 4
-                    <p>Compétences : </p>
-                    <ol class="listeTypeDecimal">
-                        <li>Début du CSS (Lien vers fichier, utilisation des balises, Mettre des commentaires)</li>
-                        <li>Introduction (couleur du fond, color, font-familly, font-size, ...)</li>
-                        <li><a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">Selecteurs particuliers</a> (*, virgule, p a,  p > a, p + a)</li>
-                        <li>Rendre les boutons plus jolie (border, border-radius)</li>
-                        <li>Habillage d’un tableau (table, th, td, border-collapse)</li>
-                        <li>Système de taille pour les éléments (width, height)</li>
-                        <li><a href="3etape4/index.html" target="_blank">Résultat</a></li>
-                    </ol>
-                </li>
-                <li>Étape 5
-                    <p>Compétences : </p>
-                    <ol class="listeTypeDecimal">
-                        <li>Utilisation d’ID et de class</li>
-                        <li>flex + toutes les options (utilisation de la nouvelle option dans la console)</li>
-                        <li>Création d’un menu/footer propre avec flex</li>
-                        <li><a href="3etape5/index.html" target="_blank">Résultat</a></li>
-                    </ol>
-                </li>
-            </ol>
-        </div>
+        <h2>3ème</h2>
+        <ul class="flex space-evenly">
+            <li>
+                <a href="" class="autre">
+                    <h3>UAA0</h3><h4 class="noneMobile">Numérique</h4>
+                    <div class="noneMobile">
+                        <img src="IMG/numerique 1.jpg" alt="Image suite Google">
+                        <img src="IMG/numerique 2.jpg" alt="Image suite office">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="" class="hardware">
+                    <h3>UAA1</h3><h4 class="noneMobile">Hardware et périphérique</h4>
+                    <div class="noneMobile">
+                        <img src="IMG/ordi 1.jpeg" alt="Image tour ordinateur ouvert">
+                        <img src="IMG/ordi 2.png" alt="Image périphériques ordinateur">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="" class="programmation">
+                    <h3>UAA2</h3><h4 class="noneMobile">Programmation séquentielle</h4>
+                    <div class="noneMobile">
+                        <img src="IMG/structo 1.png" alt="Image structorizer">
+                        <img src="IMG/python 1.png" alt="Image python">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="WEB/annee3.html" class="web">
+                    <h3>UAA3</h3><h4 class="noneMobile">Création d'un site web</h4>
+                    <div class="noneMobile">
+                        <img src="IMG/html 1.jfif" alt="Image html">
+                        <img src="IMG/CSS.jfif" alt="Image css">
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <h2>4ème</h2>
+        <ul class="flex space-evenly">
+            <li><a href="" class="projet">UAA4</a></li>
+            <li><a href="" class="programmation">UAA5</a></li>
+            <li><a href="WEB/annee4.html" class="web">UAA6</a></li>
+            <li><a href="" class="web">UAA7</a></li>
+            <li><a href="" class="autre">UAA8</a></li>
+        </ul>
+        <h2>5ème</h2>
+        <ul class="flex space-evenly">
+            <li><a href="" class="projet">UAA9</a></li>
+            <li><a href="" class="hardware">UAA10</a></li>
+            <li><a href="" class="programmation">UAA11</a></li>
+            <li><a href="" class="web">UAA12</a></li>
+        </ul>
+        <h2>6ème</h2>
+        <ul class="flex space-evenly">
+            <li><a href="" class="projet">UAA13</a></li>
+            <li><a href="" class="programmation">UAA14</a></li>
+            <li><a href="" class="autre">UAA15</a></li>
+        </ul>
     </main>
 </body>
+
+
 </html>
