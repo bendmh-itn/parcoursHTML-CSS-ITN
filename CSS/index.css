@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px) {
+    .noneMobile {
+        display: none;
+    }
+  }
+
+  
+@media screen and (min-width: 600px) {
+    .blockMobile {
+        display: none;
+    }
+  }

@@ -8,47 +8,84 @@
     <title>ITN - CSS</title>
     <link rel="stylesheet" href="CSS/flex.css">
     <link rel="stylesheet" href="CSS/garde.css">
+    <link rel="stylesheet" href="CSS/index.css">
     <script type="text/javascript" src="JS/garde.js"></script>
 </head>
 
 <body>
-    <h1>Bienvenue au cours d'informatique à l'ITN</h1>
-    <ul class="menu flex space-evenly">
-        <li onclick="addClass('web')">Web</li>
-        <li onclick="addClass('programmation')">Programmation</li>
-        <li onclick="addClass('projet')">Projet</li>
-        <li onclick="addClass('hardware')">Hardware</li>
-        <li onclick="addClass('autre')">Autres</li>
-    </ul>
+    <header>
+        <h1 class="noneMobile">Bienvenue au cours d'informatique à l'ITN</h1>
+        <ul class="menu flex space-evenly">
+            <li onclick="addClass('web')">Web</li>
+            <li onclick="addClass('programmation')"><span>Progra</span><span class="noneMobile">mmation</span></li>
+            <li onclick="addClass('projet')">Projet</li>
+            <li onclick="addClass('hardware')">Hardware</li>
+            <li onclick="addClass('autre')">Autres</li>
+        </ul>
+    </header>
 
-    <h3>3ème</h3>
-    <ul class="flex space-evenly">
-        <li><a href="" class="autre">UAA0</a></li>
-        <li><a href="" class="hardware">UAA1</a></li>
-        <li><a href="" class="programmation">UAA2</a></li>
-        <li><a href="WEB/annee3.html" class="web">UAA3</a></li>
-    </ul>
-    <h3>4ème</h3>
-    <ul class="flex space-evenly">
-        <li><a href="" class="projet">UAA4</a></li>
-        <li><a href="" class="programmation">UAA5</a></li>
-        <li><a href="WEB/annee4.html" class="web">UAA6</a></li>
-        <li><a href="" class="web">UAA7</a></li>
-        <li><a href="" class="autre">UAA8</a></li>
-    </ul>
-    <h3>5ème</h3>
-    <ul class="flex space-evenly">
-        <li><a href="" class="projet">UAA9</a></li>
-        <li><a href="" class="hardware">UAA10</a></li>
-        <li><a href="" class="programmation">UAA11</a></li>
-        <li><a href="" class="web">UAA12</a></li>
-    </ul>
-    <h3>6ème</h3>
-    <ul class="flex space-evenly">
-        <li><a href="" class="projet">UAA13</a></li>
-        <li><a href="" class="programmation">UAA14</a></li>
-        <li><a href="" class="autre">UAA15</a></li>
-    </ul>
+    <main>
+        <h2>3ème</h2>
+        <ul class="flex space-evenly">
+            <li>
+                <a href="" class="autre">
+                    <h3>UAA0</h3><h4 class="noneMobile">Numérique</h4>
+                    <div class="noneMobile">
+                        <img src="IMG/numerique 1.jpg" alt="Image suite Google">
+                        <img src="IMG/numerique 2.jpg" alt="Image suite office">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="" class="hardware">
+                    <h3>UAA1</h3><h4 class="noneMobile">Hardware et périphérique</h4>
+                    <div class="noneMobile">
+                        <img src="IMG/ordi 1.jpeg" alt="Image tour ordinateur ouvert">
+                        <img src="IMG/ordi 2.png" alt="Image périphériques ordinateur">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="" class="programmation">
+                    <h3>UAA2</h3><h4 class="noneMobile">Programmation séquentielle</h4>
+                    <div class="noneMobile">
+                        <img src="IMG/structo 1.png" alt="Image structorizer">
+                        <img src="IMG/python 1.png" alt="Image python">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="WEB/annee3.html" class="web">
+                    <h3>UAA3</h3><h4 class="noneMobile">Création d'un site web</h4>
+                    <div class="noneMobile">
+                        <img src="IMG/html 1.jfif" alt="Image html">
+                        <img src="IMG/CSS.jfif" alt="Image css">
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <h2>4ème</h2>
+        <ul class="flex space-evenly">
+            <li><a href="" class="projet">UAA4</a></li>
+            <li><a href="" class="programmation">UAA5</a></li>
+            <li><a href="WEB/annee4.html" class="web">UAA6</a></li>
+            <li><a href="" class="web">UAA7</a></li>
+            <li><a href="" class="autre">UAA8</a></li>
+        </ul>
+        <h2>5ème</h2>
+        <ul class="flex space-evenly">
+            <li><a href="" class="projet">UAA9</a></li>
+            <li><a href="" class="hardware">UAA10</a></li>
+            <li><a href="" class="programmation">UAA11</a></li>
+            <li><a href="" class="web">UAA12</a></li>
+        </ul>
+        <h2>6ème</h2>
+        <ul class="flex space-evenly">
+            <li><a href="" class="projet">UAA13</a></li>
+            <li><a href="" class="programmation">UAA14</a></li>
+            <li><a href="" class="autre">UAA15</a></li>
+        </ul>
+    </main>
 </body>
 
 
