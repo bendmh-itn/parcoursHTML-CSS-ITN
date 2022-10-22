@@ -1,6 +1,95 @@
+.menu {
+  padding: 15px;
+  margin: 0;
+}
+
+.menu li {
+  color: #292E6E;
+  padding: 20px;
+}
+
+.menu li:hover {
+  cursor: pointer;
+  background-color: #1123ED;
+  color: #CCD0FF;
+  border-radius: 50%;
+}
+
+.menu li:hover a {
+  color: #CCD0FF;
+}
+
+a {
+  color: #292E6E;
+  text-decoration: none;
+}
+
+header {
+  background-color: #CCD0FF;
+}
+
+body {
+  background-color: lavender;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #1123ED;
+  text-decoration: underline;
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.center {
+  text-align: center;
+}
+
+.noPuce li {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #CCD0FF;
+  height: 50px;
+}
+
+
+/* 
+  Cette partie sert pour les html des différentes matières pour obtenir la même mise en page. 
+  Elle n'est pas utile pour la page de garde
+*/
+
+.listeTypeAlphabet li {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.listeTypeAlphabet li p {
+  font-size: 20px;
+}
+
+.listeTypeDecimal li {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.lienImportant {
+  color: blue;
+}
+
+/* Fin */
+
 @media only screen and (max-width: 600px) {
     .noneMobile {
         display: none;
+    }
+    .menu li {
+      padding: 0;
     }
   }
 
