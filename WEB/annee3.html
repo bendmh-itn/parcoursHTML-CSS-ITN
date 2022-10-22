@@ -5,21 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/web.css">
     <link rel="stylesheet" href="../CSS/flex.css">
-    <title>Parcours HTML - CSS ITN</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>Web 3ème</title>
 </head>
 
 <body>
-    <header>
-        <ul class="flex space-evenly">
+    <header class="center">
+        <h1 class="noneMobile">Voici le parcours pour la partie web</h1>
+        <ul class="menu flex space-evenly noPuce">
             <li><a href="annee3.html">3ème</a></li>
             <li><a href="annee4.html">4ème</a></li>
+            <li><a href="annee5.html">5ème</a></li>
+            <li><a href="annee6.html">6ème</a></li>
             <li><a href="../index.html">Back</a></li>
         </ul>
     </header>
     <main>
-        <h1>Voici le parcours pour la partie web</h1>
         <div>
             <p class="justify">
                 Chaque partie du cours permet
@@ -30,7 +33,6 @@
             </p>
         </div>
         <div>
-            <h2>Voici les principales étapes en 3ème</h2>
             <ol type="A" class="listeTypeAlphabet">
                 <li>Étape 1
                     <p>Compétences : </p>
@@ -51,7 +53,7 @@
                         <li>Ajout de paragraphes pour construire la page</li>
                         <li>Ajout de div pour structurer son code (système de boite)</li>
                         <li>Point important : utilisation de la console pour visualiser son code (flèche)</li>
-                        <li><a href="3etape1/index.html" target="_blank">Résultat</a></li>
+                        <li><a class="lienImportant" href="3etape1/index.html" target="_blank">Résultat</a></li>
                     </ol>
                 </li>
                 <li>Étape 2
@@ -62,7 +64,7 @@
                         <li>Ajout des pages profil et voir le bien</li>
                         <li>Création d’une liste numérotée pour les données de profil</li>
                         <li>Création de bouton avec un lien cacher derrière</li>
-                        <li><a href="3etape2/index.html" target="_blank">Résultat</a></li>
+                        <li><a class="lienImportant" href="3etape2/index.html" target="_blank">Résultat</a></li>
                     </ol>
                 </li>
                 <li>Étape 3
@@ -72,7 +74,7 @@
                         <li>Ajout d’éléments dans la page voir le bien (table, vidéo, map)</li>
                         <li>Utiliser l’option mail</li>
                         <li>Ajout d’un lien externe (target ou non)</li>
-                        <li><a href="3etape3/index.html" target="_blank">Résultat</a></li>
+                        <li><a class="lienImportant" href="3etape3/index.html" target="_blank">Résultat</a></li>
                     </ol>
                 </li>
                 <li>Étape 4
@@ -81,14 +83,14 @@
                         <li>Début du CSS (Lien vers fichier, utilisation des balises, Mettre des commentaires)</li>
                         <li>Introduction (couleur du fond, color, font-familly, font-size, ...)</li>
                         <li>
-                            <a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">
+                            <a class="lienImportant" href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">
                                 Selecteurs particuliers
                             </a> (*, virgule, p a, p > a, p + a)
                         </li>
                         <li>Rendre les boutons plus jolie (border, border-radius)</li>
                         <li>Habillage d’un tableau (table, th, td, border-collapse)</li>
                         <li>Système de taille pour les éléments (width, height)</li>
-                        <li><a href="3etape4/index.html" target="_blank">Résultat</a></li>
+                        <li><a class="lienImportant" href="3etape4/index.html" target="_blank">Résultat</a></li>
                     </ol>
                 </li>
                 <li>Étape 5
@@ -97,12 +99,16 @@
                         <li>Utilisation d’ID et de class</li>
                         <li>flex + toutes les options (utilisation de la nouvelle option dans la console)</li>
                         <li>Création d’un menu/footer propre avec flex</li>
-                        <li><a href="3etape5/index.html" target="_blank">Résultat</a></li>
+                        <li><a class="lienImportant" href="3etape5/index.html" target="_blank">Résultat</a></li>
                     </ol>
                 </li>
             </ol>
         </div>
     </main>
+    <footer class="flex space-around align-item-center">
+        <a href="https://www.asty-moulin.be/j34/" target="_blank" rel="noopener noreferrer">Notre école</a>
+        <a href="http://b-staff.be/identification.php" target="_blank" rel="noopener noreferrer">BSchool</a>
+    </footer>
 </body>
 
 </html>

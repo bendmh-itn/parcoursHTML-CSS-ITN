@@ -1,0 +1,29 @@
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.listeCompetences li {
+    list-style-type: disc;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+footer {
+    background-color: blue;
+    margin: 0;
+    padding: 10px;
+}
+
+footer p a {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
