@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+* {
+  font-family: 'EB Garamond', serif;
+}
+
 .menu {
   padding: 15px;
   margin: 0;
@@ -58,6 +64,15 @@ footer {
   height: 50px;
 }
 
+.menuSelected {
+      background-color: #1123ED;
+      border-radius: 50%;
+}
+
+.menuSelected a {
+  color: #CCD0FF;
+}
+
 
 /* 
   Cette partie sert pour les html des différentes matières pour obtenir la même mise en page. 
@@ -89,7 +104,7 @@ footer {
         display: none;
     }
     .menu li {
-      padding: 0;
+      padding: 5px;
     }
   }
 
