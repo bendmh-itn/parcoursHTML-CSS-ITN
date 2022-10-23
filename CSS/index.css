@@ -64,9 +64,10 @@ footer {
   height: 50px;
 }
 
-.menuSelected {
+.menu .menuSelected {
       background-color: #1123ED;
       border-radius: 50%;
+      color: #CCD0FF;
 }
 
 .menuSelected a {
@@ -97,6 +98,16 @@ footer {
   color: blue;
 }
 
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.garde {
+  width: 100%;
+  margin: 0;
+}
+
 /* Fin */
 
 @media only screen and (max-width: 600px) {
@@ -105,6 +116,10 @@ footer {
     }
     .menu li {
       padding: 5px;
+    }
+    main {
+      width: 90%;
+      margin: 0 auto;
     }
   }
 
