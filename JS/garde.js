@@ -1,10 +1,12 @@
-function addClass(str) {
-    removeClass();
-    var list = document.getElementsByClassName(str);
-    for (let element of list) {
-        element.classList.add("UAASelected");
-    }
-    /*if (str === 0) {
+function addClass(str, element) {
+  removeClass("menuSelected");
+  element.classList.add("menuSelected");
+  removeClass("UAASelected");
+  var list = document.getElementsByClassName(str);
+  for (let element of list) {
+    element.classList.add("UAASelected");
+  }
+  /*if (str === 0) {
         var list = document.getElementsByClassName("autre");
         
         for (let element of list) {
@@ -81,10 +83,10 @@ function addClass(str) {
     }*/
 }
 
-function removeClass() {
-    let listSelected = document.getElementsByClassName("UAASelected");
-    let longueur = listSelected.length;
-    for (let i = 0; i < longueur; i++) {
-        listSelected[0].classList.toggle("UAASelected");
-    }
+function removeClass(nomClasse) {
+  let listSelected = document.getElementsByClassName(nomClasse);
+  let longueur = listSelected.length;
+  for (let i = 0; i < longueur; i++) {
+    listSelected[0].classList.toggle(nomClasse);
+  }
 }
