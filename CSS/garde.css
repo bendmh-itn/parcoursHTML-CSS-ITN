@@ -1,3 +1,7 @@
+:root {
+    --main-size-scale: 1.5;
+  }
+
 .UAASelected {
     color: red;
     /*font-size: 120%;*/
@@ -5,7 +9,7 @@
 
 img {
     width: 100px;
-    transition: transform .1s;
+    transition: transform .5s;
 }
 
 ul {
@@ -23,7 +27,7 @@ ul {
 }
 
 li img:hover {
-    -ms-transform: scale(3); /* IE 9 */
-    -webkit-transform: scale(3); /* Safari 3-8 */
-    transform: scale(3);
+    -ms-transform: scale(var(--main-size-scale)); /* IE 9 */
+    -webkit-transform: scale(var(--main-size-scale)); /* Safari 3-8 */
+    transform: scale(var(--main-size-scale));
 }
