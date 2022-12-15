@@ -47,11 +47,13 @@ ol li {
 }
 
 .btn {
-    height: 40px;
     width: 100px;
-    margin: 10px;
     border-radius: 70%;
     cursor: pointer;
+    padding: 3px;
+    display: block;
+    margin: 10px auto;
+    line-height: 40px;
 }
 
 .btn-page {
