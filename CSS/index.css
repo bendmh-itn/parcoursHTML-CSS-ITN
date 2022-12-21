@@ -70,6 +70,10 @@ footer {
       color: #CCD0FF;
 }
 
+.sous-menu {
+  background-color: #CCD0FF;
+}
+
 .menuSelected a {
   color: #CCD0FF;
 }
@@ -110,6 +114,17 @@ main {
 
 .text-danger {
   color: red;
+}
+
+.text-info {
+  color: blueviolet;
+}
+
+.hidden {
+  display: none;
+}
+.visible {
+  display: block;
 }
 
 /* Fin */
