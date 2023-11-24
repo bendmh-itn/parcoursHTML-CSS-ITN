@@ -18,12 +18,93 @@
         </ul>
     </header>
     <main>
-        <h1>En cours</h1>
+        <div>
+            <p class="justify">
+                Chaque point de matière fonctionne avec la suite Microsoft (Word, Excel et PowerPoint) et avec la suite
+                Google (Docs, Sheets et Slides). Nous avons décidé de travailler avec La suite Office car ces outils
+                sont plus professionnels.
+            </p>
+        </div>
+        <ul class="sous-menu menu flex noPuce space-evenly">
+            <li onclick="toogleVisibility('Word', this, 0)" class="menuSelected">Word</li>
+            <li onclick="toogleVisibility('PowerPoint', this, 0)">PowerPoint</li>
+            <li onclick="toogleVisibility('Excel', this, 0)">Excel</li>
+        </ul>
+        <div id="Word" class="visible">
+            <ol type="A" class="listeTypeAlphabet">
+                <li>
+                    Étape 1
+                    <p>Gérer l'onglet accueil et les niveaux de titre</p>
+                    <ol class="listeTypeDecimal">
+                        <li>Changer la police de caractère</li>
+                        <li>Changer la taille de police</li>
+                        <li>Changer la couleur</li>
+                        <li>Ajouter une numérotation numérique ou alphabétique</li>
+                        <li>Mettre de l'interligne dans un paragraphe</li>
+                        <li>Aligner les paragraphes et mettre un alinéa</li>
+                        <li>Souligner, mettre en gras ou en italique du texte</li>
+                        <li>Mettre des bordures à du texte</li>
+                        <li>Gérer les niveaux de titre</li>
+                        <li>
+                            <a class="lienImportant"
+                                href="https://drive.google.com/file/d/1tD5po-zwyfxsQPHMqDbyJAKpzTGFFBIW/view?usp=sharing"
+                                target="_blank">Résultat</a>
+                        </li>
+                        <li>
+                            <iframe class="noneMobile" width="560" height="315"
+                                src="https://www.youtube.com/embed/EWX0z8mSrT0?si=CKeK2G2t1H7i2Sax"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                            <a class="blockMobile lienImportant" href="https://www.youtube.com/watch?v=EWX0z8mSrT0"
+                                target="_blank">Vidéo explicative</a>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    Étape 2
+                    <p>Insertion d'éléments dans Word</p>
+                    <ol class="listeTypeDecimal">
+                        <li>Insérer des tableaux</li>
+                        <li>Insérer des images</li>
+                        <li>Insérer des formes (avec l'utilisation d'une zone de dessin)</li>
+                        <li>Insérer des liens cachés</li>
+                        <li>Insérer des équations mathématiques</li>
+                        <li>Insérer des symboles</li>
+                        <li>Insérer une page de garde</li>
+                        <li>Insérer un en-tête ou un pied de page</li>
+                        <li>Insérer une numérotation</li>
+                        <li>
+                            <a class="lienImportant"
+                                href="https://drive.google.com/file/d/1t_tTgf_Gv-OkO-rrdByS89TxQG5E7_D3/view?usp=sharing"
+                                target="_blank">Résultat</a>
+                        </li>
+                        <li>
+                            <iframe class="noneMobile" width="560" height="315"
+                                src="https://www.youtube.com/embed/ihA1tbzSxik?si=NKfqBOHBaVU8GnxY"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+
+                            <a class="blockMobile lienImportant" href="https://www.youtube.com/watch?v=ihA1tbzSxik"
+                                target="_blank">Vidéo explicative</a>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        <div class="hidden" id="PowerPoint">
+            <h1>PowerPoint</h1>
+        </div>
+        <div class="hidden" id="Excel">
+            <h1>Excel</h1>
+        </div>
     </main>
     <footer class="flex space-around align-item-center">
         <a href="https://www.asty-moulin.be/j34/" target="_blank" rel="noopener noreferrer">Notre école</a>
         <a href="http://b-staff.be/identification.php" target="_blank" rel="noopener noreferrer">BSchool</a>
     </footer>
+    <script type="text/javascript" src="../JS/index.js"></script>
 </body>
 
 </html>

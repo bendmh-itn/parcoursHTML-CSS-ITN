@@ -6,81 +6,6 @@ function addClass(str, element) {
     for (let element of list) {
         element.classList.add("UAASelected");
     }
-    /*if (str === 0) {
-          var list = document.getElementsByClassName("autre");
-          
-          for (let element of list) {
-              element.style.color = "red";
-              element.style.fontSize = "1.5em";
-          }
-      } else {
-          var list = document.getElementsByClassName("autre");
-          
-          for (let element of list) {
-              element.style.color = "blueviolet";
-              element.style.fontSize = "1em";
-          }
-      }
-      if (str === 1) {
-          var list = document.getElementsByClassName("web");
-          
-          for (let element of list) {
-              element.style.color = "red";
-              element.style.fontSize = "1.5em";
-          }
-      } else {
-          var list = document.getElementsByClassName("web");
-          
-          for (let element of list) {
-              element.style.color = "blueviolet";
-              element.style.fontSize = "1em";
-          }
-      }
-      if (str === 2) {
-          var list = document.getElementsByClassName("programmation");
-          
-          for (let element of list) {
-              element.style.color = "red";
-              element.style.fontSize = "1.5em";
-          }
-      } else {
-          var list = document.getElementsByClassName("programmation");
-          
-          for (let element of list) {
-              element.style.color = "blueviolet";
-              element.style.fontSize = "1em";
-          }
-      }
-      if (str === 3) {
-          var list = document.getElementsByClassName("projet");
-          
-          for (let element of list) {
-              element.style.color = "red";
-              element.style.fontSize = "1.5em";
-          }
-      } else {
-          var list = document.getElementsByClassName("projet");
-          
-          for (let element of list) {
-              element.style.color = "blueviolet";
-              element.style.fontSize = "1em";
-          }
-      }
-      if (str === 4) {
-          var list = document.getElementsByClassName("hardware");
-          
-          for (let element of list) {
-              element.style.color = "red";
-              element.style.fontSize = "1.5em";
-          }
-      } else {
-          var list = document.getElementsByClassName("hardware");
-          
-          for (let element of list) {
-              element.style.color = "blueviolet";
-              element.style.fontSize = "1em";
-          }
-      }*/
 }
 
 function removeClass(nomClasse) {
@@ -91,9 +16,9 @@ function removeClass(nomClasse) {
     }
 }
 
-function toogleVisibility(nomClasse, e) {
+function toogleVisibility(nomClasse, e, index=1) {
     let menuSelected = document.getElementsByClassName("menuSelected");
-    menuSelected[1].classList.remove("menuSelected");
+    menuSelected[index].classList.remove("menuSelected");
     let listSelected = document.getElementsByClassName("visible");
     let longueur = listSelected.length;
     for (let i = 0; i < longueur; i++) {
